@@ -29,4 +29,8 @@ class User(AbstractBaseUser, PermissionsMixin):
     objects = UserManager()
 
     def tokens(self):
-        pass  
+        pass
+
+
+class OneTimePassword(models.Model):
+    user
