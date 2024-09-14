@@ -1,0 +1,3 @@
+django_rest_auth/
+db.sqlite3
+.envs
